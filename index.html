@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site d'Aïssatou DEMBELE</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+    <script src="./scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Aïssatou DEMBELE</h1>
+    </header>
+    <section class="about">
+      <img src= "images/IMG_3163.jpg" alt="Photo d'Aïssa" />
+      <h2>Présentation</h2>
+      <p>
+        Bonjour ! Je suis Aïssatou DEMBELE une développeuse web en devenir, adèpte de la switch et des drama coréens  .<br />
+        <a href="https://www.linkedin.com/in/fanny-lochu-886a8a12a/" target="_blank">Développeuse web full-stack</a> en freelance depuis 2007, je transmets également mes connaissances et mon goût pour le code et la programmation en intervenant dans différentes écoles en tant que formatrice.
+    </p>
+    </section>
+    <section class="skills">
+      <h2>Compétences</h2>
+      <div class="skills-content">
+        <div class="skills-column">
+            <div class="progress-container">
+                <span class="progress-badge">FRANCAIS</span>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 90%;"></div>
+                  <span class="progress-value">100%</span>
+                </div>
+              </div>
+              <!-- Fin .progress-container -->
+              <div class="progress-container">
+                  <span class="progress-badge">COREEN</span>
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 40%;"></div>
+                    <span class="progress-value">40%</span>
+                  </div>
+             </div>
+                <!-- Fin .progress-container -->
+        </div>
+        <!-- Fin .skills-column -->
+        <div class="skills-column">
+            <div class="progress-container">
+                <span class="progress-badge">ANGLAIS</span>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 95%;"></div>
+                  <span class="progress-value">95%</span>
+                </div>
+              <!-- Fin .progress-container -->
+              <div class="progress-container">
+                  <span class="progress-badge">ITALIEN</span>
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 15%;"></div>
+                    <span class="progress-value">15%</span>
+                  </div>
+               </div>
+                <!-- Fin .progress-container -->
+        </div>
+        <!-- Fin .skills-column -->
+      </div>
+      <!-- Fin .skills-content -->
+    </section>
+    <section class="timeline">
+        <h2>Expérience</h2>
+      <ul>
+          <!-- Début expérience 1 -->
+            <li>
+              <div class="bubble">
+                <time>2013 - 2018</time>
+                <span>Babysitting, Paradise Kids</span>
+                <br />France
+              </div>
+            </li>
+            <!-- Fin expérience 1 -->
+            <!-- Début expérience 2 -->
+            <li>
+              <div class="bubble">
+                <time>2018 - 2019</time>
+                <span> Vendeuse (CDI), Petit Bateau des Champs Elysées</span>
+                <br />Paris, France
+              </div>
+            </li>
+            <!-- Fin expérience 2 -->
+            <!-- Début expérience 3 -->
+            <li>
+                <div class="bubble">
+                  <time>2020</time>
+                  <span>Vendeuse Intérimaire - KSI Retails</span>
+                  <br />France
+                </div>
+              </li>
+              <!-- Fin expérience 3 -->
+          </ul>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21011.71579976842!2d2.3481668461441636!3d48.830278475252676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e672274c4e0583%3A0x50b82c368941b10!2s13th%20arrondissement%20of%20Paris%2C%2075013%20Paris!5e0!3m2!1sen!2sfr!4v1622125631834!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="row">
+                  <div class="form-group">
+                    <label>Nom</label>
+                    <input type="text" name="name" placeholder="Votre nom" required />
+                  </div>
+                  <div class="form-group">
+                    <label>Email</label>
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Votre email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>Message</label>
+                  <textarea
+                    name="message"
+                    placeholder="Votre message..."
+                    required
+                  ></textarea>
+                </div>
+                <button class="btn">Envoyer</button>
+              </form>
+          </section>
+  </body>
+</html>
